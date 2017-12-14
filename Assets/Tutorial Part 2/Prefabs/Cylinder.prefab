@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4702393896988650}
   - component: {fileID: 33396516098907888}
+  - component: {fileID: 23389381104440506}
   - component: {fileID: 136034084427807778}
   - component: {fileID: 54857787208661792}
-  - component: {fileID: 23389381104440506}
   - component: {fileID: 114412178871657970}
   - component: {fileID: 114764112056492690}
   m_Layer: 0
@@ -39,8 +39,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1699273253068710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -141, y: -36.423332, z: -47.6}
-  m_LocalScale: {x: 20, y: 100, z: 20}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -51,7 +51,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1699273253068710}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 54857787208661792}
+  initialKick: {x: 0, y: 1, z: 0}
 --- !u!114 &114764112056492690
 MonoBehaviour:
   m_ObjectHideFlags: 1
